@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LearnEasy - Student Learning Hub</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf4ff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #2876b9;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        header h1 {
+            font-size: 40px;
+        }
+
+        nav {
+            margin-top: 20px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffdf70;
+        }
+
+        .container {
+            background-color: white;
+            width: 85%;
+            margin: 25px auto;
+            padding: 25px;
+            border-radius: 12px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2876b9;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            margin-left: 25px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        footer {
+            background-color: #2876b9;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .container {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>LearnEasy</h1>
+        <p>Student Learning and Guidance Hub</p>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#elements">HTML Elements</a>
+            <a href="#challenges">Challenges</a>
+            <a href="#members">Our Members</a>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+        <h2>Welcome to LearnEasy!</h2>
+        <p>
+            Our website aims to help struggling students by providing
+            educational resources, study tips, and helpful guidance.
+        </p>
+    </div>
+
+    <div class="container" id="elements">
+        <h2>3. HTML Elements We Will Use</h2>
+
+        <p>
+            We will mostly use these HTML elements to create our website:
+        </p>
+
+        <ul>
+            <li><b>h1 to h3</b> - For headings</li>
+            <li><b>p</b> - For paragraphs</li>
+            <li><b>img</b> - For pictures</li>
+            <li><b>a</b> - For links</li>
+            <li><b>ul and li</b> - For lists</li>
+            <li><b>div</b> - To organize the website layout</li>
+        </ul>
+    </div>
+
+    <div class="container" id="challenges">
+        <h2>4. Challenges We Expect</h2>
+
+        <p>
+            We expect challenges in designing the layout, writing
+            the HTML code correctly, choosing suitable colors and
+            images, and making sure that the website is easy to navigate.
+        </p>
+    </div>
+
+    <div class="container" id="members">
+        <h2>5. Our Group Members</h2>
+
+        <ul>
+            <li><b>Sarmiento:</b> Create the website layout and design.</li>
+
+            <li><b>Gruta:</b> Gather educational information and learning resources.</li>
+
+            <li><b>Guillermo:</b> Write and organize the HTML code.</li>
+
+            <li><b>Gimena:</b> Find suitable images, check the content, and help test the website.</li>
+        </ul>
+
+        <p>
+            All members will cooperate, share ideas, and help each
+            other to finish the project successfully.
+        </p>
+    </div>
+
+    <footer>
+        <p>LearnEasy | Sta. Elena High School</p>
+        <p>Learning Made Easier for Everyone!</p>
+    </footer>
+
+</body>
+</html>
